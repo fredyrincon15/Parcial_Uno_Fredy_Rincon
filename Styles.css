@@ -1,0 +1,60 @@
+*{
+    margin: 0x;
+    padding: 0px;
+
+}
+
+.Container{
+    background: black;
+    max-width: 1500px;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+
+    align-items: center;
+    gap: 10px; 
+}
+
+nav ul li{
+    float: left;
+    list-style: none;
+    margin: 10px;
+    align-content: center;
+    line-height: 0px;
+    text-align: center;
+    align-items: center;
+    
+    
+}
+
+
+.image-container{
+    height: 50px;
+}
+
+a{
+    color: white;
+    text-align: center
+}
+
+ .Boton_Buscar {
+    background-color: white;
+    color: black;
+    border: rgb(143, 134, 150);
+    cursor: pointer;
+    border-radius: 15px;
+    padding: 10px 15px; 
+}
+
+.Buscar{
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+}
+
+
+a:hover {
+    background-color: #41219b;
+    color: black;
+}
